@@ -27,12 +27,13 @@ export const styles = StyleSheet.create({
     textCreated:{
         fontSize: theme.font_size.md,
         color: theme.colors.base.gray300,
-        textDecoration: 'line-through'
+        textDecorationLine: 'none',
+
     },
     textDone:{
         fontSize: theme.font_size.md,
         color: theme.colors.base.gray100,
-        textDecoration: 'none'
+        textDecorationLine: 'line-through'
     }
     
 })
